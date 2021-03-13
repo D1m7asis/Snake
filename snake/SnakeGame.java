@@ -110,11 +110,11 @@ public class SnakeGame extends Game {
 
     private void createNewClover() {
         Clover newClover;
-            // do {
-                int x = snake.getTailX(); //getRandomNumber(WIDTH); // FIXME: 13.03.2021 Нужно создавать какашку после съедания яблока, за хвостом
-                int y = snake.getTailY(); //getRandomNumber(HEIGHT);
+
+                int x = snake.getTailX();
+                int y = snake.getTailY();
                 newClover = new Clover(x, y);
-                // } while (snake.checkCollision(newClover));
+
             clover = newClover;
     }
 
