@@ -90,7 +90,7 @@ public class SnakeGame extends Game {
     private void drawScene() {
         for (int i = 0; i < WIDTH; i++) {
             for (int j = 0; j < HEIGHT; j++) {
-                setCellValueEx(i, j, Color.DARKGREEN, "\uD83C\uDF42", Color.GREEN, 60); //100 - 3D Эффект
+                setCellValueEx(i, j, Color.DARKGREEN, "\uD83C\uDF42", Color.GREEN, 100); //100 - 3D Эффект
             }
         }
         snake.draw(this);
